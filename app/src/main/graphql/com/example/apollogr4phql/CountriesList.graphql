@@ -1,0 +1,16 @@
+query CountriesList{
+    countries{
+        code
+        name
+        capital
+        emoji
+        languages{
+            code
+            name
+        }
+        states{
+            code
+            name
+        }
+    }
+}

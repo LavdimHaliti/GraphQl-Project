@@ -1,0 +1,2 @@
+rootProject.name = "Gr4phQL"
+include ':app'

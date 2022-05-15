@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/continentListFragment">
+    <fragment
+        android:id="@+id/continentListFragment"
+        android:name="com.example.gr4phql.fragments.ContinentListFragment"
+        android:label="ContinentListFragment" >
+        <action
+            android:id="@+id/action_continentListFragment_to_countryListFragment2"
+            app:destination="@id/countryListFragment2"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:exitAnim="@android:anim/slide_out_right"
+            app:popEnterAnim="@android:anim/slide_in_left"
+            app:popExitAnim="@android:anim/slide_out_right" />
+    </fragment>
+    <fragment
+        android:id="@+id/countryListFragment2"
+        android:name="com.example.gr4phql.fragments.CountryListFragment"
+        android:label="CountryListFragment" >
+        <action
+            android:id="@+id/action_countryListFragment2_to_countryDetailsFragment2"
+            app:destination="@id/countryDetailsFragment2" />
+        <argument
+            android:name="id"
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/countryDetailsFragment2"
+        android:name="com.example.gr4phql.fragments.CountryDetailsFragment"
+        android:label="CountryDetailsFragment" >
+        <argument
+            android:name="id"
+            app:argType="string" />
+    </fragment>
+</navigation>

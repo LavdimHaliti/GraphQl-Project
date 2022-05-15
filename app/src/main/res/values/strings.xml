@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Gr4phQL</string>
+    <string name="continents">Continents</string>
+    <string name="continent">Continent</string>
+    <string name="_11">+11</string>
+    <string name="country">Country</string>
+    <string name="code">Code:</string>
+    <string name="native_language">Native Language:</string>
+    <string name="capital">Capital:</string>
+    <string name="country_code">AL</string>
+    <string name="language">Language</string>
+    <string name="no_states_for_this_country">No states for this country</string>
+    <string name="state">State</string>
+</resources>

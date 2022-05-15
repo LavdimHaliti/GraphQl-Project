@@ -1,0 +1,14 @@
+query ContinentsAndCountriesList{
+    continents{
+        code
+        name
+        countries{
+            code
+            name
+            states{
+                code
+                name
+            }
+        }
+    }
+}
